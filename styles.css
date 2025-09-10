@@ -139,42 +139,6 @@ section:nth-child(even) .section-content {
   align-items: center;
 }
 
-/* About section with background image */
-#about {
-  background: linear-gradient(135deg, rgba(30, 60, 114, 0.4) 0%, rgba(42, 82, 152, 0.4) 100%), url('https://raw.githubusercontent.com/dannyhoz2/square2m-website/main/images/yakira-event-setup.jpg') no-repeat center center;
-  background-size: cover !important;
-  color: #fff;
-  position: relative;
-  overflow: hidden;
-}
-
-#about::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(30, 60, 114, 0.3) 0%, rgba(42, 82, 152, 0.3) 100%);
-}
-
-#about h2 {
-  color: white;
-  position: relative;
-  z-index: 1;
-}
-
-#about h2::after {
-  background: rgba(255,255,255,0.3);
-}
-
-#about .lead-text {
-  color: #fff;
-  position: relative;
-  z-index: 1;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-}
-
 h2 { 
   color: #1e3c72; 
   margin-bottom: 40px;
@@ -542,4 +506,40 @@ section {
 
 .nav-logo:hover {
   opacity: 0.8;
+}
+
+/* About section with background image */
+#about {
+  background: linear-gradient(135deg, rgba(30, 60, 114, 0.4) 0%, rgba(42, 82, 152, 0.4) 100%), url('https://raw.githubusercontent.com/dannyhoz2/square2m-website/main/images/yakira-event-setup.jpg') no-repeat center center;
+  background-size: cover !important;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+#about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(30, 60, 114, 0.3) 0%, rgba(42, 82, 152, 0.3) 100%);
+}
+
+#about h2 {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#about h2::after {
+  background: rgba(255,255,255,0.3);
+}
+
+#about .lead-text {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
