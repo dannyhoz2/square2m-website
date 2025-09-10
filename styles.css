@@ -524,3 +524,22 @@ html { scroll-behavior: smooth; }
 section {
   animation: fadeInUp 0.8s ease-out;
 }
+
+.nav-logo {
+  display: flex;
+  align-items: baseline;
+  gap: 0px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-logo-img {
+  height: 30px;
+  width: auto;
+}
+
+.nav-logo:hover {
+  opacity: 0.8;
+}
