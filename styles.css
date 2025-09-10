@@ -141,7 +141,7 @@ section:nth-child(even) .section-content {
 
 /* About section with background image */
 #about {
-  background: linear-gradient(135deg, rgba(30, 60, 114, 0.4) 0%, rgba(42, 82, 152, 0.4) 100%), url('images/yakira-event-setup.jpg') no-repeat center center !important;
+  background: linear-gradient(135deg, rgba(30, 60, 114, 0.4) 0%, rgba(42, 82, 152, 0.4) 100%), url('https://raw.githubusercontent.com/dannyhoz2/square2m-website/main/images/yakira-event-setup.jpg') no-repeat center center;
   background-size: cover !important;
   color: #fff;
   position: relative;
