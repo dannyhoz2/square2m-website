@@ -193,6 +193,8 @@ p {
   margin-bottom: 50px;
   font-style: italic;
   max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Service Cards */
@@ -266,6 +268,7 @@ p {
   width: 100%;
   max-width: 1000px;
   place-items: center;
+  align-items: start;
 }
 
 .about-card {
@@ -276,6 +279,9 @@ p {
   text-align: left;
   width: 100%;
   max-width: 450px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .yakira-profile {
@@ -442,6 +448,7 @@ footer {
   .about-card {
     width: 100%;
     max-width: none;
+    height: auto;
   }
   
   .features-grid { 
